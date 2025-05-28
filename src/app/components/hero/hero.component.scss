@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+
+  .container {
+    h1 {
+      font-size: 3rem;
+      span {
+        color: #ffd700;
+      }
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #ffd700;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  }
+}

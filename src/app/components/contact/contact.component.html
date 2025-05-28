@@ -1,0 +1,14 @@
+<p>contact works!</p>
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>If you’d like to collaborate or have any questions, feel free to drop a message!</p>
+
+    <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+      <input type="text" name="name" placeholder="Your Name" ngModel required />
+      <input type="email" name="email" placeholder="Your Email" ngModel required />
+      <textarea name="message" rows="5" placeholder="Your Message" ngModel required></textarea>
+      <button type="submit" [disabled]="!contactForm.valid">Send Message</button>
+    </form>
+  </div>
+</section>
