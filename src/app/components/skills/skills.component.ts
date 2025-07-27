@@ -12,11 +12,15 @@ export class SkillsComponent implements OnInit {
     { name: 'Node.js', icon: 'assets/icons/nodedotjs.svg' },
     { name: 'PostgreSQL', icon: 'assets/icons/postgresql.svg' },
     { name: 'JavaScript', icon: 'assets/icons/javascript.svg' },
+    { name: 'TypeScript', icon: 'assets/icons/typescript.svg' },
+    { name: 'Bootstrap', icon: 'assests/icons/bootstrap.svg' },
     { name: 'HTML5', icon: 'assets/icons/html5.svg' },
     { name: 'CSS', icon: 'assets/icons/css.svg' },
     { name: 'Git', icon: 'assets/icons/git.svg' },
     { name: 'Sequelize', icon: 'assets/icons/sequelize.svg' },
-    { name: 'ExpressJs', icon: 'assets/icons/expressjs.svg' },
+    { name: 'ExpressJs', icon: 'assets/icons/express.svg' },
+    { name: 'AWS', icon: 'assets/icons/amazonwebservices.svg' },
+    { name: 'GCP', icon: 'assets/icons/googlecloud.svg' },
   ];
 
   constructor() { }
